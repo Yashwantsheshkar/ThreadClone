@@ -11,11 +11,9 @@ struct ThreadCell: View {
     var body: some View {
         VStack {
             HStack(alignment: .top, spacing: 12.0){
-                Image("Avatar 1")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 40, height: 40)
-                    .clipShape(Circle())
+                
+                CircularProfileImageView() // this is the custom view created inside the components group
+                
                 VStack(alignment: .leading, spacing: 4.0){
                    
                     // profile name

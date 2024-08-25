@@ -16,34 +16,7 @@ struct ExploreView: View {
                 LazyVStack {
                     ForEach(0 ... 10, id: \.self) { user in
                         VStack {
-                            HStack {
-                                Image("Avatar 1")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: 40, height: 40)
-                                .clipShape(Circle())
-                                
-                                VStack {
-                                    Text("maxverstapper1")
-                                        .fontWeight(.semibold)
-                                    
-                                    Text("Max Verstappen")
-                                        .fontWeight(.bold)
-                                }
-                                .font(.footnote)
-                                
-                                Spacer()
-                                
-                                Text("Follow")
-                                    .font(.subheadline)
-                                    .fontWeight(.semibold)
-                                    .frame(width: 100, height: 32)
-                                    .overlay {
-                                        RoundedRectangle(cornerRadius: 10)
-                                            .stroke(Color(.systemGray), style: StrokeStyle(lineWidth: 1))
-                                    }
-                            }
-                            .padding(.horizontal)
+                            UserCell() //refector the code for the code to look neat as well as use the components more easily across different views.
                             
                             Divider()
                         }
