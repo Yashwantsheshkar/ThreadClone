@@ -20,6 +20,7 @@
 		6E87D4E62C79108D007D1E7D /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D4E52C79108D007D1E7D /* CreateThreadView.swift */; };
 		6E87D4EA2C79111A007D1E7D /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D4E92C79111A007D1E7D /* ActivityView.swift */; };
 		6E87D4ED2C791136007D1E7D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E87D4EC2C791136007D1E7D /* ProfileView.swift */; };
+		6ED4C6EB2C7B560300212599 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4C6EA2C7B560300212599 /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		6E87D4E52C79108D007D1E7D /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		6E87D4E92C79111A007D1E7D /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		6E87D4EC2C791136007D1E7D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6ED4C6EA2C7B560300212599 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				6E87D4DF2C790FF0007D1E7D /* FeedView.swift */,
+				6ED4C6EA2C7B560300212599 /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				6E87D4E02C790FF0007D1E7D /* FeedView.swift in Sources */,
 				6E87D4D02C787AB8007D1E7D /* LoginView.swift in Sources */,
 				6E87D4B92C787A21007D1E7D /* ContentView.swift in Sources */,
+				6ED4C6EB2C7B560300212599 /* ThreadCell.swift in Sources */,
 				6E87D4EA2C79111A007D1E7D /* ActivityView.swift in Sources */,
 				6E87D4E62C79108D007D1E7D /* CreateThreadView.swift in Sources */,
 				6E87D4DB2C790D3A007D1E7D /* ThreadsTabView.swift in Sources */,
